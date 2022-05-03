@@ -27,5 +27,5 @@ export default function Redux() {
   };
 
   //
-  return <button onClick={handleClick}>{counterValue}</button>;
+  return <button onClick={handleClick}>+ {counterValue}</button>;
 }
